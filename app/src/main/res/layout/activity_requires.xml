@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.psdevelop.tdapptemareg.RequiresActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:textAlignment="textStart"
+            android:textSize="18sp"
+            android:text="\nТребования: \n \n 1. Наличие  4х дверного автомобиля: иномарки не старше 1990 г.в., отечественные не старше 2000 г.в.
+            \n 2. Устройство на базе Android версией выше 4.4
+            \n 3. Чистый опрятный вид
+            \n 4. Ухоженный салон" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
